@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
@@ -124,3 +125,131 @@ header a:hover{
 	color: white;
 	text-align: center;
 }
+=======
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding:0;
+    margin: 0;
+    background-color:white;
+}
+/*Global*/
+.container{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;   
+}
+
+header{
+    background-color: gray;
+    color: brown;
+    padding: 10px 0px 0px 0px;
+    min-height: 50px;
+    border-bottom: brown 3px solid;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+
+header li{
+     float: left;
+     display: inline;
+      padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+
+}
+header nav{
+float: right;
+margin-top: 10px;
+}
+
+header .current a{
+color: brown;
+font-weight:bold;
+}
+
+header a:hover{
+    color: black;
+    font-weight: bold;
+
+}
+
+#showcase{
+    min-height: 300px;
+    background-color: rgb(12, 175, 187);
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    
+}
+
+#showcase h1{
+    margin-top: 30px;
+    font-size: 50px;
+    margin-bottom: 10px;
+
+}
+#showcase p{
+    font-size: 20px;   
+}
+.button{
+	font-family: "tahoma", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	border: none;
+	color: white;
+	background-color: green;
+	padding: 15px;
+    border-radius: 5px;
+
+}
+.button:hover{
+	cursor: pointer;
+
+}
+
+.button:active{
+	background-color: coral;
+
+}
+
+/*Boxes */
+#boxes{
+    margin-top: 20px;
+
+}
+#boxes .box{
+   float: left;
+   width: 30%;
+   padding: 10px;
+   text-align: center;  
+}
+#boxes .box img{
+    width: 90px;
+}
+.footer{
+	background-color: gray;
+	overflow: hidden;
+	text-transform: uppercase;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: white;
+	text-align: center;
+}
+>>>>>>> 4f788c495bec168c90023a3698fa86f0b9ca6a1d
