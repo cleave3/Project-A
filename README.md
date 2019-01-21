@@ -1,1 +1,1 @@
-# Project-A
+# The voting app
