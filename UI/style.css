@@ -132,17 +132,14 @@ header a:hover{
     width: 400px;
     margin: auto;
     margin-bottom: 50px;
-
 }
 
 .form-frame{
     position: relative;
-    background-color: rgb(12, 175, 187);
     max-width: 360px;
     margin: 50px auto 10px;
     padding: 45px;
     text-align: center;
-    border-radius: 10px;
  }
 .form input{
    font-family: "tahoma", sans-serif;
