@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Politico || Signup</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body >
+        <header>
+                <div class="container">
+                    <div id="branding">
+                        <h1>
+                            POLITICO
+                        </h1>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li ><a href="index.html">Home</a></li>
+                            <li ><a href="about.html">About</a></li>
+                            <li class="current"><a href="signup_page.html">Signup</a></li>
+                            <li><a href="login_page.html">Login</a></li>
+                        </ul>
+                
+                    </nav>
+                </div>
+            </header>
+	<div class= "form-border">
+	<div class="form-frame">
+		<form class="form" action="">
+            <label for="fName">First Name</label>
+            <input type="text" placeholder="First Name" required>
+            <label for="lName">Last Name</label>
+            <input type="text" placeholder="Last Name" required>
+            <label for="Gender">Gender</label>
+            <select id="Gender" name="Gender">
+             <option value="Male">Male</option>
+             <option value="Female">Female</option>
+             <option value="Prefer not to say">Prefer not to say</option>
+             </select>
+             <label for="phone number">Phone Number</label>
+             <input type="text" placeholder="Phone number (Optional)" maxlength="11">
+             <label for="email">Email</label>
+             <input type="email" placeholder="example@mail.com" required>
+             <label for="password">Password</label>
+             <input type="password" placeholder="Password" min="8" required>
+			<button type="submit" class= "button">signup</button>
+			<p class="message">Already Registered? <a href="login_page.html">Login</a></p>
+		</form>
+	</div>
+</div>
+<footer class="footer"> COPYRIGHT &COPY; 2019. POLITICO</footer>
+</body>
+</html>

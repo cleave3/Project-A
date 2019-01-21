@@ -18,10 +18,10 @@ ul{
 }
 
 header{
-    background-color: gray;
+    background-color:black;
     color: brown;
     padding: 10px 0px 0px 0px;
-    min-height: 50px;
+    min-height: 80px;
     border-bottom: brown 3px solid;
 }
 
@@ -57,7 +57,7 @@ font-weight:bold;
 }
 
 header a:hover{
-    color: black;
+    color: brown;
     font-weight: bold;
 
 }
@@ -87,7 +87,7 @@ header a:hover{
 	font-size: 14px;
 	border: none;
 	color: white;
-	background-color: green;
+	background-color: brown;
 	padding: 15px;
     border-radius: 5px;
 
@@ -117,10 +117,90 @@ header a:hover{
     width: 90px;
 }
 .footer{
-	background-color: gray;
+	background-color: brown;
 	overflow: hidden;
 	text-transform: uppercase;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	color: white;
-	text-align: center;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: none;
+}
+
+/* setting the dimension of the form*/
+.form-border{
+    width: 400px;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+.form-frame{
+    position: relative;
+    background-color: rgb(12, 175, 187);
+    max-width: 360px;
+    margin: 50px auto 10px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 10px;
+ }
+.form input{
+   font-family: "tahoma", sans-serif;
+   outline: 1;
+   background: #f2f2f2;
+   width: 100%;
+   border: 0;
+   margin: 0 0 15px;
+   padding: 15px;
+   font-size: 14px;
+}
+
+.form label{
+    float: left;
+}
+
+.form select{
+    font-family: "tahoma", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    font-size: 14px;
+}
+
+#sidebar{
+   float: left;
+   width: 20%;
+   margin-top: 10px; 
+   padding: 15px;
+   color: white;
+   background-color: black;
+   margin: 30px;
+   text-align: center;
+}
+
+#main .about p{
+    float: left;
+    margin: 30px;
+}
+@media( max-width: 760px){
+    header #branding,
+    header nav,
+    header nav li,
+    #boxes .box,
+    aside #sidebar,
+    article #main{
+        float: none;
+        text-align: center;
+        width: 100%;
+
+    }
+    header{
+        padding-bottom: 20px;  
+    }
+    #showcase h1{
+        margin-top: 40px;
+    }
 }
