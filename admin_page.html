@@ -17,7 +17,7 @@
             </h1>
         </div>
         <nav>
-            <ul>
+
                 <li class="current"><a href="admin_page.html">Admin</a></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -26,23 +26,31 @@
                 <li><a href="results_page.html">Results</a></li>
                 <li><a href="signup_page.html">Signup</a></li>
                 <li><a href="login_page.html">Login</a></li>
-            </ul>
+          
     
         </nav>
     </div>
 </header>	
 
 <section id="showcase-admin">
-    <div class="container">
-        <form>
-            <input type="text" placeholder="Candidate">
-        </form>
+        <div class="container">
+    <div class="header">
        
+        <input type="text" id="myInput" placeholder="Party Name">
+        <br>
+        <button class="button" onclick="addParty()" class="addBtn">Add</button>
+        <span class="button" onclick = "edit()">edit</span>
+        <span class="button" onclick = "done()">Done</span>
+      </div>
+      </div>
+</section> 
+<section  id="party-list">
+    <div class="box">
+         <h3>PARTY LIST</h3>
     </div>
-</section>
-
-
+    
 </section>
 <footer class="footer"> COPYRIGHT &COPY; 2019. All Rights Reserved</footer>
+<script src="UI/politico.js"></script>
 </body>
 </html>
